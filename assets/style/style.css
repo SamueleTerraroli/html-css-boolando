@@ -64,6 +64,12 @@ p{
   top: 0;
   left: 0;
 }
+.card-img:hover{
+  cursor: pointer;
+}
+.card-img:hover .hide{
+  display: block;
+}
 
 /**********container**********/
 .container{
@@ -87,9 +93,7 @@ p{
   width:100%;
   height: 90%;
 }
-.card-img:hover .hide{
-  display: block;
-}
+
 
 .card-text{
   /*position: absolute;*/
@@ -98,6 +102,30 @@ p{
   background-color: white;
   padding: 5px 0;
 }
+
+.box-discount {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  padding: 5px 5px;
+  background-color: red;
+  color: white;
+  z-index: 50;
+}
+.box-discount.green {
+  left: 50px;
+  bottom: 40px;
+  background-color: green;
+}
+.box-discount.sost{
+
+  background-color: green;
+}
+
+.box-heart {
+  
+}
+
 
 /***********HEADER************/
 /***********MAIN***********/
